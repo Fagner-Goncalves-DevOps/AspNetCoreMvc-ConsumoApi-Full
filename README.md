@@ -4,8 +4,8 @@
 
 ## Que já foi implementado :
 
-- Implementado Configuração classe startup, separação, camada config, ajuste das views
-
+- Implementado Configuração classe startup, e autenticação
+- Implementado Configuração Models, Views, Controllers
 ## Tecnologias implementadas:
 
 - ASP.NET 5.0 (with .NET Core 5.0)
@@ -16,5 +16,7 @@
 - 
 ## Implementações Updates
 
-**v1.0 - 05/03/2022**
-- Consumindo APi usando MVC, asp net Core.
+**v1.0 - 01/03/2022**
+- Consumindo APi usando MVC, classe startup, e autenticação
+**v1.1 - 05/03/2022**
+- Consumindo APi usando MVC, Configuração Models, Views, Controllers
