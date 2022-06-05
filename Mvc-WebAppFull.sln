@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MvcAspNetCore", "MvcAspNetCore", "{0EDADF6C-3E1B-43BA-841D-2346B040E7C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppMvcFull", "src\WebAppMvcFull\WebAppMvcFull.csproj", "{F1E313D2-4447-46DD-98BF-A2242BBCAB01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1E313D2-4447-46DD-98BF-A2242BBCAB01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E313D2-4447-46DD-98BF-A2242BBCAB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E313D2-4447-46DD-98BF-A2242BBCAB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E313D2-4447-46DD-98BF-A2242BBCAB01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1E313D2-4447-46DD-98BF-A2242BBCAB01} = {0EDADF6C-3E1B-43BA-841D-2346B040E7C4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F897FD85-F32D-4951-AB1B-7E6C6559CA23}
+	EndGlobalSection
+EndGlobal
