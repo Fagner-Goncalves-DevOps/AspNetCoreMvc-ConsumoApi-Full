@@ -1,8 +1,10 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebAppMvcFull.Extensions;
 using WebAppMvcFull.Services;
 
 namespace WebAppMvcFull.Configuration
@@ -11,11 +13,9 @@ namespace WebAppMvcFull.Configuration
     {
         public static void RegisterServices(this IServiceCollection services) 
         {
-
-            //add dependecia como cliente http, não singleton etc..
-            services.AddHttpClient<IAutenticacaoService, AutenticacaoService>(); 
-
-
+            services.AddHttpClient<IAutenticacaoService, AutenticacaoService>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped<IUser, AspNetUser>();
         }
     }
 }
