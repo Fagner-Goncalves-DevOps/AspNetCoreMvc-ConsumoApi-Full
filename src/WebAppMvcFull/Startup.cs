@@ -28,6 +28,7 @@ namespace WebAppMvcFull
             services.AddIdentityConfiguration();
             services.AddMvcConfiguration();
 
+            services.RegisterServices();
 
         }
 

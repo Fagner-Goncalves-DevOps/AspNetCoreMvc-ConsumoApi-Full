@@ -11,7 +11,7 @@
     <div class="col-md-12">
         <section>
             <form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
-                <h4>Seja bem vindo e boas compras</h4>
+                <h4>Seja bem vindo ao SpaceSystem</h4>
                 <hr />
 
                 <!--vc:Summary></!--vc:Summary-->
@@ -22,9 +22,9 @@
                     <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="Senha"></label>
-                    <input type="password" asp-for="Senha" class="form-control" />
-                    <span asp-validation-for="Senha" class="text-danger"></span>
+                    <label asp-for="Password"></label>
+                    <input type="password" asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary">Entrar</button>

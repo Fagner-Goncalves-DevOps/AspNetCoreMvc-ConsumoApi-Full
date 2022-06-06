@@ -9,7 +9,6 @@ C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-W
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\bin\Debug\net5.0\WebAppMvcFull.pdb
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\bin\Debug\net5.0\WebAppMvcFull.Views.dll
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\bin\Debug\net5.0\WebAppMvcFull.Views.pdb
-C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\obj\Debug\net5.0\WebAppMvcFull.csproj.AssemblyReference.cache
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\obj\Debug\net5.0\WebAppMvcFull.GeneratedMSBuildEditorConfig.editorconfig
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\obj\Debug\net5.0\WebAppMvcFull.AssemblyInfoInputs.cache
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\obj\Debug\net5.0\WebAppMvcFull.AssemblyInfo.cs
@@ -29,6 +28,7 @@ C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-W
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\obj\Debug\net5.0\Razor\Views\Identidade\Registro.cshtml.g.cs
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
@@ -40,3 +40,11 @@ C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-W
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\obj\Debug\net5.0\WebAppMvcFull.pdb
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\obj\Debug\net5.0\WebAppMvcFull.genruntimeconfig.cache
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\obj\Debug\net5.0\WebAppMvcFull.csproj.CopyComplete
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\AspNetMvc-WebAppFull.v1.0\Mvc-WebAppFull\src\WebAppMvcFull\obj\Debug\net5.0\WebAppMvcFull.csproj.AssemblyReference.cache
