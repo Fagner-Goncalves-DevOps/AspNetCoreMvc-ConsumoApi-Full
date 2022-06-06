@@ -24,5 +24,5 @@
 **v1.1 - 05/03/2022**
 - Consumindo APi usando MVC, Configuração Models, Views, Controllers
 
-**v1.1 - 06/03/2022**
+**v1.2 - 06/03/2022**
 - Consumindo APi usando MVC, Configuração AuthJwt(Login)+Cooikes
