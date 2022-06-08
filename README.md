@@ -8,6 +8,7 @@
 - Implementado Configuração Models, Views, Controllers
 - Implementado Configuração AuthJwt(Login)+Cooikes com Camada de serviço generico
 - Implementado Configuração Camada serviço com dados do Usuario(User)
+- Implementado Configuração Tratamentos Erros / HttpServicos Melhorias e Boas práticas
 
 ## Tecnologias implementadas:
 
@@ -28,3 +29,6 @@
 **v1.2 - 06/03/2022**
 - Consumindo APi usando MVC, Configuração AuthJwt(Login)+Cooikes
 - Consumindo APi usando MVC, Camada serviço com dados do Usuario(User)
+
+**v1.3 - 08/03/2022**
+- Consumindo APi usando MVC, Tratamentos Erros / HttpServicos Melhorias e Boas práticas
