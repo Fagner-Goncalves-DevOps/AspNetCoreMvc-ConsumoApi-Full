@@ -7,6 +7,7 @@
 - Implementado Configuração classe startup, e autenticação
 - Implementado Configuração Models, Views, Controllers
 - Implementado Configuração AuthJwt(Login)+Cooikes com Camada de serviço generico
+- Implementado Configuração Camada serviço com dados do Usuario(User)
 
 ## Tecnologias implementadas:
 
@@ -26,3 +27,4 @@
 
 **v1.2 - 06/03/2022**
 - Consumindo APi usando MVC, Configuração AuthJwt(Login)+Cooikes
+- Consumindo APi usando MVC, Camada serviço com dados do Usuario(User)
