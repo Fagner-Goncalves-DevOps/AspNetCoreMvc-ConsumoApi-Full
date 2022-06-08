@@ -3,34 +3,38 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using WebAppMvcFull.Extensions;
 
 namespace WebAppMvcFull.Configuration
 {
     public static class WebAppConfig
     {
-        public static void AddMvcConfiguration(this IServiceCollection services)//, IConfiguration configuration) vai ser implementando ainda
+        public static void AddMvcConfiguration(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddControllersWithViews();
-            //services.Configure<>
+            services.Configure<AppSettings>(configuration);
 
         }
                         
         public static void UseMvcConfiguration(this IApplicationBuilder app, IWebHostEnvironment env) 
         {
 
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-            else
-            {
-                app.UseExceptionHandler("/Home/Error");
-                app.UseHsts();
-            }
+            //if (env.IsDevelopment())
+            //{
+            //    app.UseDeveloperExceptionPage();
+            //}
+            //else
+            //{
+            //    app.UseExceptionHandler("/Error/500");
+            //    app.UseStatusCodePagesWithRedirects("/Error/{0}");
+            //    app.UseHsts();
+            //}
+
+            app.UseExceptionHandler("/Error/500");
+            app.UseStatusCodePagesWithRedirects("/Error/{0}");
+            app.UseHsts();
+
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
@@ -38,6 +42,8 @@ namespace WebAppMvcFull.Configuration
 
             //esse vem da startup
             app.UseIdentityConfiguration();
+
+            app.UseMiddleware<ExceptionMiddleware>(); //todos os request passar por ele, centralizando os erros neles, sem precisar de try catch
 
             //esse cara sai
             //app.UseAuthorization();

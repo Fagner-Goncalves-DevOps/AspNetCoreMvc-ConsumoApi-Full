@@ -12,7 +12,7 @@ using WebAppMvcFull.Services;
 
 namespace WebAppMvcFull.Controllers
 {
-    public class IdentidadeController : Controller
+    public class IdentidadeController : MainController //Controller
     {
         private readonly IAutenticacaoService _autenticacaoService;
 
@@ -28,16 +28,15 @@ namespace WebAppMvcFull.Controllers
         {
             return View();
         }
-
         [HttpPost]
         [Route("nova-conta")]
-        public async Task<IActionResult> Registro(UsuarioDtos usuarioDtos)
+        public async Task<IActionResult> Registro(UsuarioRegistro usuarioRegistro)
         {
-            if (!ModelState.IsValid) return View(usuarioDtos);
-            var resposta = await _autenticacaoService.Registro(usuarioDtos);
+            if (!ModelState.IsValid) return View(usuarioRegistro);
+            var resposta = await _autenticacaoService.Registro(usuarioRegistro);
+            if (ResponsePossuiErros(resposta.ResponseResult)) return View(usuarioRegistro);
 
             await RealizarLogin(resposta);
-            //if (false) return View(usuarioDtos);
             return RedirectToAction("Index", "Home");
 
         }
@@ -46,31 +45,35 @@ namespace WebAppMvcFull.Controllers
 
         [HttpGet]
         [Route("login")]
-        public IActionResult Login() 
+        public IActionResult Login(string returnUrl = null) 
         {
+            ViewData["ReturnUrl"] = returnUrl;
             return View();
         }
-
         [HttpPost]
         [Route("login")]
-        public async Task<IActionResult> Login(UsuarioLogin usuarioLogin) 
+        public async Task<IActionResult> Login(UsuarioLogin usuarioLogin, string returnUrl = null) 
         {
+            ViewData["ReturnUrl"] = returnUrl;
+
             if (!ModelState.IsValid) return View(usuarioLogin);
             var resposta = await _autenticacaoService.Login(usuarioLogin);
+            if (ResponsePossuiErros(resposta.ResponseResult)) return View(usuarioLogin);
 
             await RealizarLogin(resposta);
 
-
-           // if (false) return View(usuarioLogin);
-            return RedirectToAction("Index", "Home");
+            if (string.IsNullOrEmpty(returnUrl)) return RedirectToAction("Index", "Home");
+            return LocalRedirect(returnUrl);
         }
+
 
 
         [HttpGet]
         [Route("Sair")]
         public async Task<IActionResult> Logout() 
         {
-            return RedirectToAction("Index", "Home"); //apenas teste no momento
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Index", "Home"); 
         }
 
 

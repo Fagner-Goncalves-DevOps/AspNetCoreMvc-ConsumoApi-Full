@@ -9,6 +9,6 @@ namespace WebAppMvcFull.Services
    public interface IAutenticacaoService
     {
         Task<UsuarioRespostaLogin> Login(UsuarioLogin usuarioLogin);
-        Task<UsuarioRespostaLogin> Registro(UsuarioDtos usuarioDtos);
+        Task<UsuarioRespostaLogin> Registro(UsuarioRegistro usuarioRegistro);
     }
 }

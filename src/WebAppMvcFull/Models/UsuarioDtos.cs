@@ -7,17 +7,19 @@ using System.Threading.Tasks;
 
 namespace WebAppMvcFull.Models
 {
-    public class UsuarioDtos
+    public class UsuarioRegistro
     {
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         [EmailAddress(ErrorMessage = "O campo {0} está em formato inválido")]
         public string Email { get; set; }
+
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         [StringLength(100, ErrorMessage = "O campo {0} precisa ter entre {2} e {1} caracteres", MinimumLength = 6)]
         public string Password { get; set; } //Password | Senha
+
         [DisplayName("Confirme sua senha")]
-        [Compare("Senha", ErrorMessage = "As senhas não conferem.")]
-        public string SenhaConfirmacao { get; set; }
+        [Compare("Password", ErrorMessage = "As senhas não conferem.")]
+        public string ConfirmPassword { get; set; } // ConfirmPassword | SenhaConfirmacao
     }
 
 
@@ -26,9 +28,12 @@ namespace WebAppMvcFull.Models
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         [EmailAddress(ErrorMessage = "O campo {0} está em formato inválido")]
         public string Email { get; set; }
+
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         [StringLength(100, ErrorMessage = "O campo {0} precisa ter entre {2} e {1} caracteres", MinimumLength = 6)]
         public string Password { get; set; } //Password | Senha
+
+
     }
 
     public class UsuarioRespostaLogin
@@ -37,7 +42,7 @@ namespace WebAppMvcFull.Models
         public string RefreshToken { get; set; }
         public DateTime ExpiresIn { get; set; }   // DateTime |  double 
         public UsuarioToken UsuarioToken { get; set; }
-        //public ResponseResult ResponseResult { get; set; } vai ser criado ainda 
+        public ResponseResult ResponseResult { get; set; }
     }
 
     public class UsuarioToken
