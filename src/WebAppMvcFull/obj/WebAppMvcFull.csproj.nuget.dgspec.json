@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProgramData\\Temporario\\GitHubGeral\\AspNetCore\\AspNetMvc-WebAppFull.v1.0\\Mvc-WebAppFull\\src\\WebAppMvcFull\\WebAppMvcFull.csproj": {}
+    "C:\\GitHubGeral\\AspNetCoreMvc-ConsumoApi-Full\\src\\WebAppMvcFull\\WebAppMvcFull.csproj": {}
   },
   "projects": {
-    "C:\\ProgramData\\Temporario\\GitHubGeral\\AspNetCore\\AspNetMvc-WebAppFull.v1.0\\Mvc-WebAppFull\\src\\WebAppMvcFull\\WebAppMvcFull.csproj": {
+    "C:\\GitHubGeral\\AspNetCoreMvc-ConsumoApi-Full\\src\\WebAppMvcFull\\WebAppMvcFull.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProgramData\\Temporario\\GitHubGeral\\AspNetCore\\AspNetMvc-WebAppFull.v1.0\\Mvc-WebAppFull\\src\\WebAppMvcFull\\WebAppMvcFull.csproj",
+        "projectUniqueName": "C:\\GitHubGeral\\AspNetCoreMvc-ConsumoApi-Full\\src\\WebAppMvcFull\\WebAppMvcFull.csproj",
         "projectName": "WebAppMvcFull",
-        "projectPath": "C:\\ProgramData\\Temporario\\GitHubGeral\\AspNetCore\\AspNetMvc-WebAppFull.v1.0\\Mvc-WebAppFull\\src\\WebAppMvcFull\\WebAppMvcFull.csproj",
-        "packagesPath": "C:\\Users\\goncalves.fagner\\.nuget\\packages\\",
-        "outputPath": "C:\\ProgramData\\Temporario\\GitHubGeral\\AspNetCore\\AspNetMvc-WebAppFull.v1.0\\Mvc-WebAppFull\\src\\WebAppMvcFull\\obj\\",
+        "projectPath": "C:\\GitHubGeral\\AspNetCoreMvc-ConsumoApi-Full\\src\\WebAppMvcFull\\WebAppMvcFull.csproj",
+        "packagesPath": "C:\\Users\\Fagner\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHubGeral\\AspNetCoreMvc-ConsumoApi-Full\\src\\WebAppMvcFull\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\goncalves.fagner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fagner\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -68,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     }
